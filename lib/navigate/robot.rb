@@ -44,14 +44,16 @@ class Robot
     end
 
   end 
+
   return self
+
  end
 
  def ==(other)
   ((@x == other.x) && (@y == other.y) && (@dir == other.dir))
  end
   
- def print
+ def to_s
   puts "#{@x} #{@y} #{@dir}"
  end
 

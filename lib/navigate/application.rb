@@ -16,7 +16,7 @@ class Application
   print "$ "
   input1 = gets.chomp
   command = parser1.parsing(inputc, input, input1)
-  command.print
+  command.to_s
   end while input!= 'exit'
  end
 

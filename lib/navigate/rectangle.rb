@@ -15,4 +15,12 @@ class Rectangle
    [@x2, @y2]
  end
 
+ def is_inside(robot1)
+  if (robot1.x > @x2 || robot1.y >@y2 || robot1.x < @x1 || robot1.y < @y1  )
+   return false
+  else
+   return true  
+  end
+ end
+
 end

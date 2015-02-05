@@ -12,11 +12,12 @@ class Parser
     robot1 = Robot.new(xcord, ycord, dir)
 
     operations = input1.split
-    no = 0
+    
+    size = 0
   
-    while(no <  operations.size)
-     robot1.navigate(operations[no])
-     no = no + 1
+    while(size <  operations.size)
+     robot1.navigate(operations[size])
+     size = size + 1
     end
 
     return robot1
