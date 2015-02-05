@@ -50,6 +50,9 @@ class Robot
  def ==(other)
   ((@x == other.x) && (@y == other.y) && (@dir == other.dir))
  end
-
+  
+ def print
+  puts "#{@x} #{@y} #{@dir}"
+ end
 
 end 
