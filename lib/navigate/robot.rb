@@ -38,7 +38,7 @@ class Robot
     elsif(@dir == "south")
       @dir = "west"
     elsif(@dir == "east")
-      @dir = "soth"
+      @dir = "south"
     elsif(@dir == "west")
       @dir = "north"
     end
@@ -51,8 +51,5 @@ class Robot
   ((@x == other.x) && (@y == other.y) && (@dir == other.dir))
  end
 
- def eql?(other)
-  self == other
- end
 
 end 
