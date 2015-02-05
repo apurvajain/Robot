@@ -5,7 +5,7 @@
         1,
         1,
         1,
-        null
+        1
       ],
       "/Users/apurvajain/Desktop/RUBY/Robot/lib/navigate/robot.rb": [
         null,
@@ -78,8 +78,10 @@
         1,
         null,
         0,
+        0,
+        0,
         null,
-        null,
+        0,
         0,
         0,
         0,
@@ -101,6 +103,10 @@
         1,
         null,
         1,
+        null,
+        10,
+        10,
+        null,
         10,
         10,
         10,
@@ -108,11 +114,34 @@
         null,
         10,
         10,
+        null,
         46,
         26,
         26,
         null,
+        null,
         10,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/apurvajain/Desktop/RUBY/Robot/lib/navigate/rectangle.rb": [
+        null,
+        1,
+        1,
+        12,
+        12,
+        12,
+        12,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         null
@@ -155,6 +184,23 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/apurvajain/Desktop/RUBY/Robot/spec/navigate/rectangle_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        3,
         null,
         1,
         1,
@@ -230,6 +276,6 @@
         null
       ]
     },
-    "timestamp": 1423118524
+    "timestamp": 1423120630
   }
 }

@@ -8,14 +8,16 @@ class Application
  def start
  
   parser1 = Parser.new()
-
+  print "$ "
+  inputc = gets.chomp
   begin
   print "$ "
   input = gets.chomp
+  print "$ "
   input1 = gets.chomp
-  command = parser1.parsing(input, input1)
+  command = parser1.parsing(inputc, input, input1)
   command.print
-  end while input != 'exit'
+  end while input!= 'exit'
  end
 
  def start_test
